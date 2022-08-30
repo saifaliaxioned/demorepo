@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #000;
+  color: #fff;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  flex-basis: 40%;
+}
+nav .nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+nav .nav-link {
+  list-style: none;
+}
+.nav-link a {
+  color: #fff;
+  text-decoration: none;
+}
